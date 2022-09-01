@@ -1,0 +1,15 @@
+/Users/alex/Desktop/Education/C#/Seminars/P-2/obj/Debug/net6.0/P-2.csproj.AssemblyReference.cache
+/Users/alex/Desktop/Education/C#/Seminars/P-2/obj/Debug/net6.0/P-2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alex/Desktop/Education/C#/Seminars/P-2/obj/Debug/net6.0/P-2.AssemblyInfoInputs.cache
+/Users/alex/Desktop/Education/C#/Seminars/P-2/obj/Debug/net6.0/P-2.AssemblyInfo.cs
+/Users/alex/Desktop/Education/C#/Seminars/P-2/obj/Debug/net6.0/P-2.csproj.CoreCompileInputs.cache
+/Users/alex/Desktop/Education/C#/Seminars/P-2/bin/Debug/net6.0/P-2
+/Users/alex/Desktop/Education/C#/Seminars/P-2/bin/Debug/net6.0/P-2.deps.json
+/Users/alex/Desktop/Education/C#/Seminars/P-2/bin/Debug/net6.0/P-2.runtimeconfig.json
+/Users/alex/Desktop/Education/C#/Seminars/P-2/bin/Debug/net6.0/P-2.dll
+/Users/alex/Desktop/Education/C#/Seminars/P-2/bin/Debug/net6.0/P-2.pdb
+/Users/alex/Desktop/Education/C#/Seminars/P-2/obj/Debug/net6.0/P-2.dll
+/Users/alex/Desktop/Education/C#/Seminars/P-2/obj/Debug/net6.0/refint/P-2.dll
+/Users/alex/Desktop/Education/C#/Seminars/P-2/obj/Debug/net6.0/P-2.pdb
+/Users/alex/Desktop/Education/C#/Seminars/P-2/obj/Debug/net6.0/P-2.genruntimeconfig.cache
+/Users/alex/Desktop/Education/C#/Seminars/P-2/obj/Debug/net6.0/ref/P-2.dll
