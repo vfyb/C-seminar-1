@@ -1,4 +1,5 @@
-﻿// Напишите программу, которая выводит случайное трёхзначное число и удаляет вторую цифру этого числа.
+﻿// Напишите программу, которая выводит введенную цифру заданного числа или сообщает, 
+// что такой цифры нет..
 
 int[] NumberToArray(int arg)
 {
@@ -36,9 +37,8 @@ int DeleteAnyDigit(int[] num_array, int dig_del)
 
 Console.WriteLine("Enter your number: ");
 int number = int.Parse(Console.ReadLine());
-// int number = new Random().Next(100, 9999);
 
-Console.WriteLine("Enter number of digit you want to delete: ");
+Console.WriteLine("Enter number of digit you want to see: ");
 int digit_del = int.Parse(Console.ReadLine());
 
 int final_number = number;
