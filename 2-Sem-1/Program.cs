@@ -4,7 +4,7 @@
 int MaxDigit(int arg)
 {
     int second_digit = arg % 10;
-    int first_digit = (arg / 10) % 10;
+    int first_digit = (arg / 10);
 
     int result = first_digit;
 
@@ -15,7 +15,7 @@ if ( second_digit > result )
     return result;
 }
 
-int number = new Random().Next(10, 99);
+int number = new Random().Next(10, 100);
 Console.WriteLine(number);
 
 int max = MaxDigit(number);
