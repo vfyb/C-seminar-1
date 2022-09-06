@@ -6,17 +6,18 @@
 
 void ThirdDigitOfNumber(int num)
     {
+        // Сразу ставим 2, потому что далее в if проверяем что >= 100:
         int rank = 2;
 
         if ( Math.Abs(num) < 100 ) Console.WriteLine($"There is no third digit in number {num}");
         else
             {
-                // Determine the bit depth of the number (rank):
+                // Узнаем разрядность числа (rank):
                 while ( Math.Pow(10, rank) <= Math.Abs(num))
                     {
                         rank++;
                     }
-                Console.WriteLine($"Rank is {rank}");
+                // Console.WriteLine($"Rank is {rank}");
                 rank = rank - 3;
                 int third_digit = (int)( Math.Abs(num) / Math.Pow(10, rank)) % 10 ;
                 
