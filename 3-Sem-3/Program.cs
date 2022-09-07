@@ -7,6 +7,7 @@ string GetAreaRange(int number)
         if (number == 2) return "x < 0, y > 0";
         if (number == 3) return "x < 0, y < 0";
         if (number == 4) return "x > 0, y < 0";
+        if (number == 0) return "x = 0, y = 0";
         return "There is no area";
     }
 
