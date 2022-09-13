@@ -32,7 +32,7 @@ try
 }
 catch (Exception ex)
 {
-    Console.WriteLine("Not number was entered");
+    Console.WriteLine($"Not number was entered. Error; {ex.Message}");
 }
 
 
