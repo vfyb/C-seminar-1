@@ -13,6 +13,7 @@
 //     return result;
 // }
 
+// Method for getting Number in a Power with cycle (with Power < 0)
 double GetNumberInPower(int num, int pow)
 {
     double result = num;
@@ -28,6 +29,7 @@ double GetNumberInPower(int num, int pow)
     return result;
 }
 
+// Method for getting Number from entered string
 int GetAnyNumber(string arg)
 {
     int result = 0;
