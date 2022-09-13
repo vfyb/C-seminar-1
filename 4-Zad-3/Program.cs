@@ -3,6 +3,7 @@
 // Элементы массива вводятся пользователем.
 // 1, 2, 5, 7, 19, 6, 1, 33 -> [1, 2, 5, 7, 19, 6, 1, 33]
 
+// Method for getting array from user
 int[] GetArrayFromUser()
 {
     int[] array = new int[8];
@@ -10,24 +11,31 @@ int[] GetArrayFromUser()
     for ( int i = 0; i < array.Length; i++ )
     {
         Console.WriteLine($"Enter {i + 1} element of array: ");
-        
-        while (true)
-        {
-            try 
-            {
-                array[i] = Convert.ToInt32(Console.ReadLine());
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"No number was entered. Error: {ex.Message}");
-                Console.WriteLine("Please, try again:");
-            }
-        }
+        array[i] = GetAnyNumber();
     }
 
     return array;
 }
 
+// Method for getting Number from entered string
+int GetAnyNumber()
+{
+    while (true)
+    {
+        try
+        {
+            int result = Convert.ToInt32(Console.ReadLine());
+            return result;
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"No number was entered. Error: {ex.Message}");
+            Console.WriteLine("Please, try again:");
+        }
+    }   
+}
+
+// Method for printing array
 void PrintArrayToConsole(int[] array)
 {
     Console.Write("Your array: [");
