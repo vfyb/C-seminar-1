@@ -44,7 +44,7 @@ int GetAnyNumber(string arg)
         }
         catch (Exception ex)
         {
-            Console.WriteLine($"No number was entered. Error; {ex.Message}");
+            Console.WriteLine($"No number was entered. Error: {ex.Message}");
             Console.WriteLine("Please, try again:");
         }
     }   
