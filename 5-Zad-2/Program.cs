@@ -69,8 +69,16 @@ void PrintArrayToConsole(int[] array, string text)
 }
 
 int size = GetAnyNumber("size of array");
-int[] randomArray = CreateRandomArray(size);
-int countOfEvenNumbers = CountEvenNumbersInArray(randomArray);
 
-PrintArrayToConsole(randomArray, "Random array");
-Console.WriteLine($"{countOfEvenNumbers} even numbers in this array.");
+if ( sizeArray < 1 ) 
+{
+    Console.WriteLine($"Can't create array with size {sizeArray}.\n");
+}
+else
+{
+    int[] randomArray = CreateRandomArray(size);
+    int countOfEvenNumbers = CountEvenNumbersInArray(randomArray);
+
+    PrintArrayToConsole(randomArray, "Random array");
+    Console.WriteLine($"{countOfEvenNumbers} even numbers in this array.");
+}

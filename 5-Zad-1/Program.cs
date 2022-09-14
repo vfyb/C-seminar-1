@@ -83,8 +83,15 @@ void PrintArrayToConsole(int[] array, string text)
 
 int sizeArray = GetAnyNumber("size of array");
 
-int[] oldArray = CreateRandomArray(sizeArray);
-int[] newArray = GetNewMultipleArray(oldArray);
+if ( sizeArray < 1 ) 
+{
+    Console.WriteLine($"Can't create array with size {sizeArray}.\n");
+}
+else
+{
+    int[] oldArray = CreateRandomArray(sizeArray);
+    int[] newArray = GetNewMultipleArray(oldArray);
 
-PrintArrayToConsole(oldArray, "Old array");
-PrintArrayToConsole(newArray, "New array");
+    PrintArrayToConsole(oldArray, "Old array");
+    PrintArrayToConsole(newArray, "New array");
+}
