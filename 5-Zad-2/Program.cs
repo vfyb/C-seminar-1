@@ -68,7 +68,7 @@ void PrintArrayToConsole(int[] array, string text)
     }
 }
 
-int size = GetAnyNumber("size of array");
+int sizeArray = GetAnyNumber("size of array");
 
 if ( sizeArray < 1 ) 
 {
@@ -76,7 +76,7 @@ if ( sizeArray < 1 )
 }
 else
 {
-    int[] randomArray = CreateRandomArray(size);
+    int[] randomArray = CreateRandomArray(sizeArray);
     int countOfEvenNumbers = CountEvenNumbersInArray(randomArray);
 
     PrintArrayToConsole(randomArray, "Random array");
